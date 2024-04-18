@@ -1,0 +1,31 @@
+[0m05:13:58.349840 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f88359e63d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8836029950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f88360e8d90>]}
+
+
+============================== 05:13:58.359252 | bbca4e77-74bf-4e74-b828-b35f0bd52438 ==============================
+[0m05:13:58.359252 [info ] [MainThread]: Running with dbt=1.7.11
+[0m05:13:58.361174 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': '/home/projectde2024/.dbt', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt init indoelection2024', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m05:13:58.362431 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': PosixPath('/home/projectde2024/.dbt')}
+[0m05:13:58.364092 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m05:13:58.369216 [debug] [MainThread]: Starter project path: /home/projectde2024/dbt-env/lib/python3.11/site-packages/dbt/include/starter_project
+[0m05:13:58.390121 [info ] [MainThread]: 
+Your new dbt project "indoelection2024" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m05:13:58.394417 [info ] [MainThread]: Setting up your profile.
+[0m05:16:50.681658 [info ] [MainThread]: Profile indoelection2024 written to /home/projectde2024/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m05:16:50.687011 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 172.3442, "process_user_time": 3.96304, "process_kernel_time": 0.802136, "process_mem_max_rss": "189496", "process_in_blocks": "193184", "process_out_blocks": "80"}
+[0m05:16:50.690057 [debug] [MainThread]: Command `dbt init` succeeded at 05:16:50.689633 after 172.35 seconds
+[0m05:16:50.691010 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f88359fc110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f88359ffd90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f883982f690>]}
+[0m05:16:50.691955 [debug] [MainThread]: Flushing usage events
